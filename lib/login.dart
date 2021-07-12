@@ -30,11 +30,6 @@ class _LoginState extends State<Login> {
     if (userCredential?.user != null) {
       Navigator.pushNamed(context, Tasthome.id);
     }
-
-    /*context,MaterialPageRoute(
-      //builder: (context) => Tasthome.id
-      Navigator.pushNamed(context, Tasthome.id);
-      */
   }
 
   @override

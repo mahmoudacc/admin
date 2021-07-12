@@ -153,7 +153,7 @@ class HomeState extends State<Tasthome> {
                     footer: Container(
                       color: Colors.black.withOpacity(0.5),
                       child: Text(
-                        'Toshiba Medical’s New Celesteion PET/CT Improves Resolution, Reconstruction ',
+                        'cable of cardofax GEM ECG has been repaired ',
                         style: TextStyle(
                             color: Colors.white, fontWeight: FontWeight.w700),
                         textAlign: TextAlign.center,
@@ -166,11 +166,11 @@ class HomeState extends State<Tasthome> {
                 ),
                 InkWell(
                   child: GridTile(
-                    child: Image.asset('images/monitor.jpg'),
+                    child: Image.asset('images/vent.jpg'),
                     footer: Container(
                       color: Colors.black.withOpacity(0.5),
                       child: Text(
-                        'Philips-M3046A-M4-Patient-Monitor-w-Philips-M3000A(Broken Module Connector)',
+                        'puritan bennett 840 ventilator has been repaired',
                         style: TextStyle(
                             color: Colors.white, fontWeight: FontWeight.w700),
                         textAlign: TextAlign.center,

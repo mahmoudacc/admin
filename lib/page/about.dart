@@ -31,14 +31,14 @@ class _AboutsState extends State<About> {
                 width: double.infinity,
                 height: 200,
                 child: Image.asset(
-                  'images/Operating_theatre.jpg',
+                  '4.jpg',
                   fit: BoxFit.cover,
                 ),
               ),
               SizedBox(height: 20.0),
               Center(
                 child: Container(
-                  child: Text('Summary Of Hospital',
+                  child: Text('clinical engineering department',
                       style: TextStyle(
                           fontSize: 15.0,
                           color: Colors.black,
@@ -52,7 +52,7 @@ class _AboutsState extends State<About> {
                   scrollDirection: Axis.vertical,
                   children: <Widget>[
                     Text(
-                      'The simplest method of installation is through the sublime text conso.',
+                      'Here in the Clinical Engineering Department, we repair and install devices',
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Colors.black,
@@ -60,7 +60,7 @@ class _AboutsState extends State<About> {
                       textAlign: TextAlign.center,
                     ),
                     Text(
-                      'The simplest method of installation is through the sublime text conso.',
+                      'supervise the transfer of devices from one department to another',
                       style: TextStyle(
                         fontSize: 15.0,
                         color: Colors.black,

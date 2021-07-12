@@ -128,8 +128,7 @@ class CustomButton extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(8),
       child: Material(
-        color: Colors.teal
-        ,
+        color: Colors.teal,
         elevation: 6,
         borderRadius: BorderRadius.circular(30),
         child: MaterialButton(
