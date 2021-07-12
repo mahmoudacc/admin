@@ -2,13 +2,13 @@
 
 import 'package:url_launcher/url_launcher.dart';
 
-String phoneNumber = "01120199909";
+String phoneNumber = "+201120199909";
 String messengerURL = "m.me/mahmoud.mustafa110";
 String telegramUrl = "ClinicalHospitalSystem1";//Done
 
 class ContactHelper{
   static whatsAppLauncher()async{
-    var whatsAppUrl ="whatsapp://send?phone=+2$phoneNumber";
+    var whatsAppUrl ="whatsapp://send?phone=$phoneNumber";
     // await canLaunch(whatsappUrl)?
     await launch(whatsAppUrl);
     //     :
@@ -23,10 +23,10 @@ class ContactHelper{
   }
 
   static phoneCallLauncher()async{
-    String _phoneCall = "tel:+2$phoneNumber";
-    bool _canLunch = await canLaunch(_phoneCall);
+    String _phoneCall = "tel:$phoneNumber";
+    //bool _canLunch = await canLaunch(_phoneCall);
     // if(await canLaunch(_phoneCall)){
-    print(_canLunch);
+    //print(_canLunch);
     await launch(_phoneCall);
     // }else{
     //   print("open phone call app link or do a snackbar with notification that there is no whatsapp installed");
