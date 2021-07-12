@@ -72,7 +72,6 @@ flutter:
    - Operating_theatre.jpg
    - requests-icon-8.jpg
    - CT1.jpg
-   - pulse.jpg
    - baby.jpg
    - monitor.jpg
 #n image asset can refer to one or more resolution-specific "variants", see
