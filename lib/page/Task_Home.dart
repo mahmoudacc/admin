@@ -25,7 +25,7 @@ class HomeState extends State<Tasthome> {
         //backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text(
-            "hospital system",
+            "Clinical Hospital System",
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           backgroundColor: Colors.teal,

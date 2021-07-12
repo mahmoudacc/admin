@@ -17,7 +17,8 @@ class RequestCard extends StatelessWidget {
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(15), topRight: Radius.circular(15))),
-          color: Theme.of(context).accentColor,
+          //color: Theme.of(context).accentColor,
+          color: Colors.teal,
           elevation: 3,
           child: Column(
             children: [

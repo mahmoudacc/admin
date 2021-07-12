@@ -60,7 +60,8 @@ class MyRequests extends StatelessWidget {
                           padding: EdgeInsets.symmetric(vertical: 10.0,horizontal: 20.0),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15.0),
-                            color: Theme.of(context).accentColor,
+                            //color: Theme.of(context).accentColor,
+                            color: Colors.teal,
                           ),
                           child: Row(
 

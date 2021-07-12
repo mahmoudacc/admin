@@ -28,7 +28,7 @@ class _ContactsState extends State<Contact> {
             width: double.infinity,
             height: 200,
             child: Image.asset(
-              'images/Operating_theatre.jpg',
+              'images/1 (2).jpg',
               fit: BoxFit.cover,
             ),
           ),
@@ -57,36 +57,6 @@ class _ContactsState extends State<Contact> {
                       Text('+20 120 189 0118',
                           style: TextStyle(fontSize: 15.0)),
                       Text('+20 115 508 3475',
-                          style: TextStyle(fontSize: 15.0)),
-                    ],
-                  ),
-                )
-              ],
-            ),
-          ),
-          SizedBox(
-            height: 20.0,
-          ),
-          Container(
-            width: double.infinity,
-            margin: EdgeInsets.symmetric(horizontal: 10.0),
-            child: Row(
-              children: <Widget>[
-                Icon(
-                  Icons.location_on,
-                  color: Colors.teal,
-                  size: 40.0,
-                ),
-                SizedBox(
-                  width: 80.0,
-                ),
-                Container(
-                  child: Column(
-                    children: <Widget>[
-                      Text('ADDRESS',
-                          style:
-                          TextStyle(fontSize: 15.0, color: Colors.teal)),
-                      Text('123\A,street,cairo',
                           style: TextStyle(fontSize: 15.0)),
                     ],
                   ),
