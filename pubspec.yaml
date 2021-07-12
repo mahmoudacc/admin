@@ -73,7 +73,10 @@ flutter:
    - requests-icon-8.jpg
    - CT1.jpg
    - baby.jpg
+   - pulse.jpg
+   - ecg.jpg
    - monitor.jpg
+   - vent.jpg
 #n image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

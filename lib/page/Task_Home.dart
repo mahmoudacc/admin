@@ -132,11 +132,11 @@ class HomeState extends State<Tasthome> {
               children: <Widget>[
                 InkWell(
                   child: GridTile(
-                    child: Image.asset('images/baby.jpg'),
+                    child: Image.asset('images/pulse.jpg'),
                     footer: Container(
                       color: Colors.black,
                       child: Text(
-                        'OHMEDA Ohio Care Plus Access Mod 4000 Neonatal incubator has been repaired',
+                        'PM60-Pulse Oximeter has been repaired',
                         style: TextStyle(
                             color: Colors.white, fontWeight: FontWeight.w700),
                         textAlign: TextAlign.center,
@@ -149,7 +149,7 @@ class HomeState extends State<Tasthome> {
                 ),
                 InkWell(
                   child: GridTile(
-                    child: Image.asset('images/CT1.jpg'),
+                    child: Image.asset('images/ecg.jpg'),
                     footer: Container(
                       color: Colors.black.withOpacity(0.5),
                       child: Text(
@@ -171,108 +171,6 @@ class HomeState extends State<Tasthome> {
                       color: Colors.black.withOpacity(0.5),
                       child: Text(
                         'Philips-M3046A-M4-Patient-Monitor-w-Philips-M3000A(Broken Module Connector)',
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
-                  onTap: () {
-                    print("tap");
-                  },
-                ),
-                InkWell(
-                  child: GridTile(
-                    child: Image.asset('images/mayo clinic.jpg'),
-                    footer: Container(
-                      color: Colors.black.withOpacity(0.5),
-                      child: Text(
-                        'Problem in CT',
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
-                  onTap: () {
-                    print("tap");
-                  },
-                ),
-                InkWell(
-                  child: GridTile(
-                    child: Image.asset('images/mayo clinic.jpg'),
-                    footer: Container(
-                      color: Colors.black.withOpacity(0.5),
-                      child: Text(
-                        'Problem in CT',
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
-                  onTap: () {
-                    print("tap");
-                  },
-                ),
-                InkWell(
-                  child: GridTile(
-                    child: Image.asset('images/mayo clinic.jpg'),
-                    footer: Container(
-                      color: Colors.black.withOpacity(0.5),
-                      child: Text(
-                        'Problem in CT',
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
-                  onTap: () {
-                    print("tap");
-                  },
-                ),
-                InkWell(
-                  child: GridTile(
-                    child: Image.asset('images/mayo clinic.jpg'),
-                    footer: Container(
-                      color: Colors.black.withOpacity(0.5),
-                      child: Text(
-                        'Problem in CT',
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
-                  onTap: () {
-                    print("tap");
-                  },
-                ),
-                InkWell(
-                  child: GridTile(
-                    child: Image.asset('images/mayo clinic.jpg'),
-                    footer: Container(
-                      color: Colors.black.withOpacity(0.5),
-                      child: Text(
-                        'Problem in CT',
-                        style: TextStyle(
-                            color: Colors.white, fontWeight: FontWeight.w700),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
-                  onTap: () {
-                    print("tap");
-                  },
-                ),
-                InkWell(
-                  child: GridTile(
-                    child: Image.asset('images/4228890.png'),
-                    footer: Container(
-                      color: Colors.black.withOpacity(0.5),
-                      child: Text(
-                        'party with children ',
                         style: TextStyle(
                             color: Colors.white, fontWeight: FontWeight.w700),
                         textAlign: TextAlign.center,
