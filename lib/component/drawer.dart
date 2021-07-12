@@ -17,7 +17,8 @@ class MyDrawer extends StatelessWidget {
             accountName: Text(
               FirebaseAuth.instance.currentUser == null
                   ? "not login"
-                  : FirebaseAuth.instance.currentUser.displayName ?? '',
+                  : FirebaseAuth.instance.currentUser.displayName ??
+                  FirebaseAuth.instance.currentUser.email.split('@')[0],
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
