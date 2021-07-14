@@ -45,7 +45,7 @@ class _QRCreatePageState extends State<QRCreatePage> {
   Widget build(BuildContext context) => Scaffold(
     key: scaffoldKey,
         appBar: AppBar(
-            title: Text("Create QR Code"),
+            title: Text("Select Device From The List"),
             ),
         body: Consumer<DepartmentController>(
             builder: (context, departmentData, child) =>

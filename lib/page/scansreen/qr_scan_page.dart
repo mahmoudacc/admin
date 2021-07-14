@@ -155,7 +155,7 @@ class _QRScanPageState extends State<QRScanPage> {
                                 child: CircularProgressIndicator(),
                               )
                             : ButtonWidget(
-                                text: 'Send your complaint',
+                                text: 'Send Your Complaint',
                                 onClicked: () async {
                                   done =
                                       await departmentController.sendRequest();

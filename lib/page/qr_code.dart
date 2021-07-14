@@ -55,7 +55,7 @@ class _MainPageState extends State<MainPage> {
                 )),
               ),
               ButtonWidget(
-                text: 'Creat QR code',
+                text: 'Select Device from The List',
                 onClicked: () => Navigator.of(context).push(MaterialPageRoute(
                     builder: (BuildContext context) => QRCreatePage())),
               ),

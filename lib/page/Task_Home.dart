@@ -88,7 +88,7 @@ class HomeState extends State<Tasthome> {
                 height: 80,
                 child: ListTile(
                   title: Text(
-                    "QR Scan",
+                    "Send Request",
                     style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
